@@ -1,6 +1,6 @@
-/*Using E Module and Read Temperature on HTTP Client Server over WiFi*/
-const int refresh = 3;  // 3 seconds
-
+/*Using ESP-32 CAM Module and Read Temperature on HTTP Client Server over WiFi*/  //reference https://randomnerdtutorials.com/esp32-cam-ai-thinker-pinout/
+/*A clock Module RTC DS1302*/    //library used https://github.com/Makuna/Rtc/wiki
+/*Web Server used is local for my initital testing which is using your own Wifi IP Address*/
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <WebServer.h>
@@ -24,6 +24,8 @@ ThreeWire myWire(13, 12, 15);  //DAT, CLK, RST
 RtcDS1302<ThreeWire> Rtc(myWire);
 float tValue;
 //  ***** DHT settings end
+
+const int refresh = 3;  // 3 seconds
 
 //Date&Time Value using RTC sensor
 int day;
