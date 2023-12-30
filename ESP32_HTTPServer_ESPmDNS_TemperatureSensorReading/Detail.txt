@@ -1,0 +1,4 @@
+The code manage to update Temperature Sensor data on Local Web Server
+*Need to understand what is mDNS
+*refresh every half second on serial, but 3 sec on web server
+*Temperature Sensor  DS1302 used not precise might lead to bad reading. The manual calibration done at at dht.readTemperature.
