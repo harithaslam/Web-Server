@@ -1,4 +1,4 @@
-/*Using ESP8266 Module and Read Temperature on HTTP Client Server over WiFi*/
+/*Using E Module and Read Temperature on HTTP Client Server over WiFi*/
 const int refresh = 3;  // 3 seconds
 
 #include <WiFi.h>
