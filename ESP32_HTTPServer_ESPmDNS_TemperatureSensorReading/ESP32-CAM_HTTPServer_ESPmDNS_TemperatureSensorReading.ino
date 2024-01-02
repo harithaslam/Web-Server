@@ -1,5 +1,5 @@
 /*Using ESP-32 CAM Module and Read Temperature on HTTP Client Server over WiFi*/  //reference https://randomnerdtutorials.com/esp32-cam-ai-thinker-pinout/
-/*A clock Module RTC DS1302*/    //library used https://github.com/Makuna/Rtc/wiki
+/*A clock Module RTC DS1302*/
 /*Web Server used is local for my initital testing which is using your own Wifi IP Address*/
 #include <WiFi.h>
 #include <WiFiClient.h>
